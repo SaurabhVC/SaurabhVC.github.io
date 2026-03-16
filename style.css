@@ -1,0 +1,54 @@
+.resume {  
+  display: flex;  
+  flex-direction: column;  
+  max-width: 1200px;  
+  margin: 0 auto;  
+  padding: 20px;  
+  font-family: 'Arial', sans-serif;  
+  line-height: 1.6;  
+}  
+  
+.header {  
+  text-align: center;  
+  padding: 10px 0;  
+}  
+  
+.header h1 {  
+  font-size: 2.5rem;  
+  margin: 0;  
+  color: #333;  
+}  
+  
+.header h2 {  
+  font-size: 1.5rem;  
+  color: #777;  
+}  
+  
+.section {  
+  margin: 20px 0;  
+}  
+  
+.section h3 {  
+  font-size: 1.8rem;  
+  border-bottom: 2px solid #f37020;  
+  padding-bottom: 5px;  
+  color: #333;  
+}  
+  
+.experience, .education {  
+  margin: 10px 0;  
+}  
+  
+@media (max-width: 768px) {  
+  .resume {  
+    padding: 10px;  
+  }  
+  
+  .header h1 {  
+    font-size: 2rem;  
+  }  
+  
+  .section h3 {  
+    font-size: 1.5rem;  
+  }  
+}
